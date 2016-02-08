@@ -332,7 +332,8 @@
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
-  <project path="device/asus/Z00A" name="android_device_asus_Z00A" remote="cd" />
+  <project path="device/asus/Z00A" name="android_device_asus_Z00A" remote="cf" />
+  <project path="device/asus/Z008" name="android_device_asus_Z008" remote="cf" />
   <project path="device/asus/mofd-common" name="android_device_asus_mofd-common" remote="cf" />
   <project path="kernel/asus/moorefield" name="android_kernel_asus_moorefield" remote="cf" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="tm" />
