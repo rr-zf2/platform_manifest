@@ -16,6 +16,13 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="marshmallow" />
+	   
+  <remote  name="cf"
+           fetch="https://github.com/CyanogenMod"
+           revision="refs/heads/cm-13.0" />
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets"
+           revision="refs/heads/cm-13.0" />
 
   <remote name="rr-d"
 	  fetch="https://github.com/ResurrectionRemix-Devices"
@@ -126,6 +133,7 @@
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
+  <project path="external/stlport" name="android_external_stlport" remote="cf" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
@@ -324,6 +332,10 @@
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
+  <project path="device/asus/Z00A" name="android_device_asus_Z00A" remote="cd" />
+  <project path="device/asus/mofd-common" name="android_device_asus_mofd-common" remote="cf" />
+  <project path="kernel/asus/moorefield" name="android_kernel_asus_moorefield" remote="cf" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="tm" />
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
