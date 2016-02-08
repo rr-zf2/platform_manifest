@@ -336,7 +336,7 @@
   <project path="device/asus/Z008" name="android_device_asus_Z008" remote="cf" />
   <project path="device/asus/mofd-common" name="android_device_asus_mofd-common" remote="cf" />
   <project path="kernel/asus/moorefield" name="android_kernel_asus_moorefield" remote="cf" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="tm" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" />
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
